@@ -5,8 +5,14 @@ import game.models.*;
 
 import java.util.List;
 
+
 public final class StudentDefenderController implements DefenderController
+
 {
+	private final int UGA = 0;
+	private final int UT = 1;
+	private final int FSU = 2;
+	private final int LSU = 3;
 	public void init(Game game) { }
 
 	public void shutdown(Game game) { }

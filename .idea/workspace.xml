@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f93a5615-1996-447b-b12e-b95e14866fc7" name="Default" comment="added assignment pdf">
+    <list default="true" id="f93a5615-1996-447b-b12e-b95e14866fc7" name="Default" comment="added basic structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/ufl/cise/cs1/controllers/StudentDefenderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ufl/cise/cs1/controllers/StudentDefenderController.java" afterDir="false" />
     </list>
     <ignored path="Ms. Pac-Man.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,30 +20,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/edu/ufl/cise/cs1/controllers/StudentDefenderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3248">
-              <caret line="131" column="18" lean-forward="true" selection-end-line="135" />
-              <folding>
-                <element signature="e#507#560#1" />
-                <element signature="method#UGAMove#0;class#StudentDefenderController#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/System/game/models/Actor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -224,33 +200,7 @@
             <path>
               <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
               <item name="COP3502 Project 4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="COP3502 Project 4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentAttackerController" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="COP3502 Project 4" type="462c0819:PsiDirectoryNode" />
               <item name="System" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="COP3502 Project 4" type="462c0819:PsiDirectoryNode" />
-              <item name="System" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="COP3502 Project 4" type="462c0819:PsiDirectoryNode" />
-              <item name="System" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="Exec" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
@@ -709,7 +659,7 @@
       <workItem from="1563895191912" duration="9354000" />
       <workItem from="1563984518795" duration="1944000" />
       <workItem from="1564360296408" duration="617000" />
-      <workItem from="1564363616461" duration="2884000" />
+      <workItem from="1564363616461" duration="3300000" />
     </task>
     <task id="LOCAL-00001" summary="testing github">
       <created>1563894988887</created>
@@ -732,15 +682,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563899460216</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added basic structure">
+      <created>1564366666609</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564366666609</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190250000" />
+    <option name="totallyTimeSpent" value="190666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1509" y="-674" width="1518" height="1968" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.29709142" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -757,7 +713,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.503367" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32979852" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32963374" />
       <window_info anchor="bottom" id="Application Servers" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32979852" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.43629086" weight="0.3356009" />
@@ -821,7 +777,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testing github" />
     <MESSAGE value="added assignment pdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="added assignment pdf" />
+    <MESSAGE value="added basic structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="added basic structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1068,8 +1025,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/ufl/cise/cs1/controllers/StudentDefenderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3248">
-          <caret line="131" column="18" lean-forward="true" selection-end-line="135" />
+        <state relative-caret-position="928">
+          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
           <folding>
             <element signature="e#507#560#1" />
             <element signature="method#UGAMove#0;class#StudentDefenderController#0" />
